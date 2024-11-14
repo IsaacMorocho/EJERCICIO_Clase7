@@ -24,9 +24,9 @@ public class Main {
 
         System.out.println("CLASE HAMSTER");
         HAMSTER h1= new HAMSTER();
-        h1.setTamaño();
-        h1.setEdad();
-        h1.mostrarTamañoH(0.45);
-        h1.mostrarEdadH(3);
+        h1.setTamaño(0.45);
+        h1.setEdad(3);
+        h1.mostrarTamañoH();
+        h1.mostrarEdadH();
     }
 }
