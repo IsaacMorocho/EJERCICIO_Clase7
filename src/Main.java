@@ -26,7 +26,7 @@ public class Main {
         HAMSTER h1= new HAMSTER();
         h1.setTamaño();
         h1.setEdad();
-        h1.mostrarTamañoH();
-        h1.mostrarEdadH();
+        h1.mostrarTamañoH(0.45);
+        h1.mostrarEdadH(3);
     }
 }
